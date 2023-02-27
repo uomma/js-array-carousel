@@ -15,3 +15,7 @@ Al click dell’utente sulle frecce, il programma cambierà l’immagine attiva,
 MILESTONE 1:
 1 creo container con immagine e freccie 
 2 gestisco posizionamento e centratura elementi 
+
+MILESTONE 2:
+1 tagliare img da html e cercare di riportare le img al loro posto utilizzando js
+2 ovviamente dovranno essere visualizzate una alla volta 
