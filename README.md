@@ -19,3 +19,6 @@ MILESTONE 1:
 MILESTONE 2:
 1 tagliare img da html e cercare di riportare le img al loro posto utilizzando js
 2 ovviamente dovranno essere visualizzate una alla volta 
+
+MILESTONE 3
+1 rendere up e down bottoni funzionanti che permettano di spostare la classe 'SEE' a img  precedente o successiva 
