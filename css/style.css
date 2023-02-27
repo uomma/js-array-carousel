@@ -5,10 +5,6 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: pink;
-}
-
 .container{
     max-width:900px;
     margin: 0 auto;
@@ -27,7 +23,6 @@ body{
 
 .up, .down{
     position: absolute;
-    background-color: lightgreen;
     left: 50%;
     transform: translate(-50%,0);
     z-index: 10;
