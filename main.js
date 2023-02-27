@@ -1,20 +1,28 @@
 'use:script'
-/* Consegna:
-Dato un array contenente una lista di cinque immagini, creare un carosello come nello screenshot allegato.
 
-MILESTONE 1
-Per prima cosa, creiamo il markup statico: costruiamo il container e inseriamo un’immagine grande al centro: avremo così la struttura base e gli stili pronti per poterci poi concentrare solamente sull’aspetto logico.
+/*
+<div class="item see"><img src="IMG/01.webp" alt=""></div>
+<div class="item"><img src="IMG/02.webp" alt=""></div>
+<div class="item"><img src="IMG/03.webp" alt=""></div>
+<div class="item"><img src="IMG/04.webp" alt=""></div>
+<div class="item"><img src="IMG/05.webp" alt=""></div> 
+*/
 
-MILESTONE 2
-Adesso rimuoviamo tutto il markup statico e inseriamo tutte le immagini dinamicamente servendoci dell’array fornito e un semplice ciclo for che concatena un template literal.
-Tutte le immagini saranno nascoste, tranne la prima, che avrà una classe specifica che la renderà visibile.
-Al termine di questa fase ci ritroveremo con lo stesso slider stilato nella milestone 1, ma costruito dinamicamente attraverso JavaScript.
+const imgs = ['01.webp', '02.webp', '03.webp', '04.webp','05.webp'];
 
-MILESTONE 3
-Al click dell’utente sulle frecce, il programma cambierà l’immagine attiva, che quindi verrà visualizzata al posto della precedente.
+const slider = document.querySelector('.slider');
 
- */
+let Items = '';
 
 
+
+for(let i = 0; i < imgs.length; i++){
+    console.log(imgs[i]);
+    Items += '<div class="item  "><img src="IMG/01.webp" alt=""></div>'
+
+}
+
+slider.innerHTML += Items;
+document.querySelector('.item').classList.add('see');
 
     
